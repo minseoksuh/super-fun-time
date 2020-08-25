@@ -46,7 +46,7 @@
 해당 엘레먼트의 height가 18px이기 때문에
 24px - 18px = 3px 을 적용해야 하는거 아닌가? 라고 생각했다.
 
-![font-lines](./3.png)
+![font-lines](./3.jpg)
 
 하지만 vertical-align은 base-line이라는 개념을 사용하고
 이것은 엘레먼트의 height 와는 별개이기 때문에 vertical-align: 3px을 하면 가운데 이상으로 글이 올라간다.
