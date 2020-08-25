@@ -48,10 +48,10 @@
 
 ![font-lines](./3.jpg)
 
-하지만 vertical-align은 base-line이라는 개념을 사용하고
-이것은 엘레먼트의 height 와는 별개이기 때문에 vertical-align: 3px을 하면 가운데 이상으로 글이 올라간다.
-vertical-align: length; 는 큰 글씨와 작은 글씨가 baseline을 공유하게 하기 때문에
-(font-size: )16px - (font-size: )12px/ 2 = 2px 로 작은 글씨가 큰 글씨 정가운데로 정렬이 되는 원리였다.
+하지만 vertical-align은 base-line이라는 개념을 사용하고  
+이것은 엘레먼트의 height 와는 별개이기 때문에 vertical-align: 3px을 하면 가운데 이상으로 글이 올라간다.  
+vertical-align: length; 는 큰 글씨와 작은 글씨가 baseline을 공유하게 하기 때문에  
+(font-size: )16px - (font-size: )12px/ 2 = 2px 을 올리면 작은 글씨가 큰 글씨 정가운데로 정렬이 형태였던 것이다.
 
 [vertical-align을 잘 정리해놓은 글](https://christopheraue.net/design/vertical-align)
 
