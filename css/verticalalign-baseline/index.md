@@ -67,4 +67,4 @@ vertical-align: length; 는 큰 글씨와 작은 글씨가 baseline을 공유하
 
 덕분에 inline element에 대해서 좀 더 이해할 수 있었다.
 
-[iwannagohomeee](../../README.md)
+[getmeouttahere~](../../README.md)
