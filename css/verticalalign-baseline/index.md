@@ -1,4 +1,4 @@
-# 그가 세로 가운데를 맞추는 법
+# vertical-align 과 baseline
 
 ![vertical-center-image](./2.png)
 
@@ -6,22 +6,25 @@
 언제나 그렇듯이 flex-box를 사용해서 처리를 했는데,
 내가 아는 그분은 이런 식으로 코드를 짜셨더라.
 
-![vertical-center-image](./1.png)
+<img src="./1.png" alt="example-code" style="width:500px;"/>
 
 왜 이게 동작하는지 잘 이해가 되지 않아서 분석을 좀 해보았다.
 
-> em : Relative to the font-size of the element (2em means 2 times the size of the current font)
+> em : Relative to the font-size of the element (2em means 2 times the size of
+> the current font)
 
 기본이 16px인 텍스트를 0.75em를 적용해 타겟인 12px을 만들었다.
 
-> vertical-align : The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.
+> vertical-align : The vertical-align CSS property sets vertical alignment of an
+> inline, inline-block or table-cell box.
 
 두가지 상황에서 사용이 가능하다고 한다.
 
 1. Line box 안에 있는 inline element를 조작할때.
 2. Table cell 안의 컨텐츠들을 조작할때.
 
-> Note that vertical-align only applies to inline, inline-block and table-cell elements: you can't use it to vertically align block-level elements.
+> Note that vertical-align only applies to inline, inline-block and table-cell
+> elements: you can't use it to vertically align block-level elements.
 
 [vertical-align의 값은 여러가지가 있는데](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)
 
@@ -36,7 +39,8 @@
 이 사용되었다.
 이런 경우에는
 
-> Aligns the baseline of the element to the given length above the baseline of its parent. A negative value is allowed.
+> Aligns the baseline of the element to the given length above the baseline of
+> its parent. A negative value is allowed.
 
 이 법칙을 따르는데.
 
