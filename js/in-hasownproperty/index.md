@@ -39,3 +39,5 @@ in 이라는 키워드가 사용되는걸 처음 봐서 조사를 해 보았다.
 ```js
 Object.prototype.hasOwnProperty.call(foo, "bar");
 ```
+
+[iwannagohomeee](../../README.md)

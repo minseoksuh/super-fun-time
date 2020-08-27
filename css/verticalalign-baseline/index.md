@@ -10,15 +10,19 @@
 
 왜 이게 동작하는지 잘 이해가 되지 않아서 분석을 좀 해보았다.
 
+## em
+
 > em : Relative to the font-size of the element (2em means 2 times the size of
 > the current font)
 
 기본이 16px인 텍스트를 0.75em를 적용해 타겟인 12px을 만들었다.
 
+## vertical-align
+
 > vertical-align : The vertical-align CSS property sets vertical alignment of an
 > inline, inline-block or table-cell box.
 
-두가지 상황에서 사용이 가능하다고 한다.
+vertical-align은 두가지 상황에서 사용이 가능하다고 한다.
 
 1. Line box 안에 있는 inline element를 조작할때.
 2. Table cell 안의 컨텐츠들을 조작할때.
@@ -26,9 +30,9 @@
 > Note that vertical-align only applies to inline, inline-block and table-cell
 > elements: you can't use it to vertically align block-level elements.
 
-[vertical-align의 값은 여러가지가 있는데](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)
+[vertical-align의 값은 여러 타입이 될 수 있고 작동 로직이 경우마다 다르다.](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)
 
-그가 사용한 코드에서는
+그분이가 사용한 코드에서는
 
 ```css
  {
@@ -46,6 +50,8 @@
 
 나는 왜 2px(12px의 0.167em) 을 사용했는지 이해가 가지 않았다.
 
+## baseline
+
 부모의 height가 24px이고
 해당 엘레먼트의 height가 18px이기 때문에
 24px - 18px = 3px 을 적용해야 하는거 아닌가? 라고 생각했다.
@@ -60,3 +66,5 @@ vertical-align: length; 는 큰 글씨와 작은 글씨가 baseline을 공유하
 [vertical-align을 잘 정리해놓은 글](https://christopheraue.net/design/vertical-align)
 
 덕분에 inline element에 대해서 좀 더 이해할 수 있었다.
+
+[iwannagohomeee](../../README.md)
