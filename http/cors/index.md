@@ -32,8 +32,10 @@ Same Origin은 세가지가 같아야 한다.
 > 스펙은 브라우저가 서버에게 허락한 메서드를 확인받는 preflight request를 보낸다. (method: OPTION)
 > 서버의 확인이 있은후에야 실제 요청을 보낸다.
 > 서버는 클라이언트에게 credentials (Cookie나 HTTP Authentication 데이터)를 같이 보내는게 허가되는지 정할 수 있다.
-> (Access-Control-Allow-Credentials)
+> ( Access-Control-Allow-Credentials)
 
 <img src="./2.svg" style="background: white" />
 
 > CORS 관련 헤더는(서버, 클라이언트) 일반적으로 Access-Control-\* 의 패턴을 사용하는 것 같다.
+
+[돌아가기](/README.md)
