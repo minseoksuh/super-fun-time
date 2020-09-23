@@ -28,6 +28,9 @@
 - **JavaScript execution blocks on the CSSOM.**
 - **JavaScript blocks DOM construction unless explicitly declared as async.**
 
+> Another subtle property of introducing scripts into our page is that they can read and modify not just the DOM, but also the CSSOM properties. In fact, that's exactly what we're doing in our example when we change the display property of the span element from none to inline. The end result? We now have a **race condition**.  
+> What if the browser hasn't finished downloading and building the CSSOM when we want to run our script? The answer is simple and not very good for performance: the browser delays script execution and DOM construction until it has finished downloading and constructing the CSSOM.
+
 - The location of the script in the document is significant.
 - **When the browser encounters a script tag, DOM construction pauses until the script finishes executing.**
 - JavaScript can query and modify the DOM and the CSSOM.
