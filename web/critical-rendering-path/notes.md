@@ -22,7 +22,7 @@
 - **Media types and media queries allow us to mark some CSS resources as non-render blocking.**
 - The browser downloads all CSS resources, regardless of blocking or non-blocking behavior.
 
-## Adding Interactivity with Javascript
+## Adding Interactivity with JavaScript
 
 - JavaScript can query and modify the DOM and the CSSOM.
 - **JavaScript execution blocks on the CSSOM.**

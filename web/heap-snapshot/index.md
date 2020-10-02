@@ -25,7 +25,7 @@ Chrome Devtool에 있는 heap snapshot을 사용해볼 기회가 있었다.
 
 이렇게 타고 window 객체에 까지 다다르는 것을 볼 수 있다.
 
-- Detached HTML Element 는 현재 DOM에서는 떨어져 있으나 javascript 상으로는 연결되어 있어 GC가 되지 않는 DOM 엘레멘트를 말한다
+- Detached HTML Element 는 현재 DOM에서는 떨어져 있으나 JavaScript 상으로는 연결되어 있어 GC가 되지 않는 DOM 엘레멘트를 말한다
 
 > A DOM node can only be garbage collected when there are no references to it from either the page's DOM tree or JavaScript code. A node is said to be "detached" when it's removed from the DOM tree but some JavaScript still references it. Detached DOM nodes are a common cause of memory leaks.
 
