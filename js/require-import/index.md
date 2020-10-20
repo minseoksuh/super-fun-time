@@ -1,10 +1,12 @@
 # require vs import
 
+[https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b](https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b)
+
 옛날에 자바스크립트에는 모듈화를 제대로 할 수 있는 방법이 없었음.
 
 Revealing Module Pattern 같은 걸 사용해 처리했었는데
 
-![./revealing.png](revealing)
+![revealing](./revealing.png)
 
 CommonJS 라는 라이브러리가 require exports 형태의 모듈 시스템을 제공함.
 
