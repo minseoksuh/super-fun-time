@@ -1,4 +1,4 @@
-# useMemo - Dependency 내 Reference
+# useMemo - Dependency가 Object Reference를 가지고 있는 경우
 
 컴포넌트를 리팩토링 하는 과정에서  
 Map을 디펜던시로 사용하는 변수를 useMemo로 처리하는 코드가 있었다.
@@ -10,6 +10,7 @@ Map을 디펜던시로 사용하는 변수를 useMemo로 처리하는 코드가 
 해당 Map을 디펜던시로 가지고 있는 useMemo가 콜이 되지 않아서 ui 버그가 생기는 현상이 있었다.
 
 ![bug gif](./3.gif)
+(정상작동한다면 전체 선택 체크박스도 체크가 되어야 한다...)
 
 리팩토링 전에는 운이 좋게 filterDriverOption이 매 렌더마다 새로 만들어져 버그는 없었는데
 
