@@ -1,4 +1,4 @@
-# GetIdType (Conditional, infer, never)
+# Conditional Type (extends, infer, never)
 
 ![GetIdType.png](./GetIdType.png)
 
