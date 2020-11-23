@@ -32,10 +32,10 @@ Hooks가 State 로직 공유의 새로운 방법이라면 기존에는 render pr
 
 > Traditionally in React, we’ve had two popular ways to share stateful logic between components: render props and higher-order components.
 
-![render-props.png](./render-props.png)
+![render-props.png](./render-props.png)  
 자신의 state를 render-props의 인수를 넘겨주어서 State를 공유하고 있는 Mouse 컴포넌트
 
-![hoc.png](./hoc.png)
+![hoc.png](./hoc.png)  
 리액트 컴포넌트를 return 하는 wrapper함수를 통해 data 스테이트를 공유하는 withSubscription
 
 render-props나 hoc 코드를 보면 다 class형 컴포넌트를 사용하고, 스테이트 로직 공유를 받는 컴포넌트가 감싸지는 형식으로 컴포넌트 위계가 바뀌는 것을 볼 수 있다.
