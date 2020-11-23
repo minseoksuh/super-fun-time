@@ -20,8 +20,6 @@
 
 위에 useFriendStatus처럼 스테이트 관련 로직을 재사용 할 수 있도록 분리시키는 것이 최초 Hooks 개발 목표 중 하나였다는 것을 볼 수 있다.
 
-![custom-hook.png](./customHook.png)
-
 > 내부에서 state를 사용하지는 않지만 현재 메쉬코리아 프로젝트에 사용되는 useDidMount 도 일종의 custom Hook 이라고 할 수 있을듯.
 >
 > ```tsx
