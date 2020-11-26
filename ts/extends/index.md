@@ -46,7 +46,7 @@ B가 A를 **포함할** 수 있으면 true 고 아니면 false다.
 
 위 글에서 타입에 관한 정의를 잘 설명해 주고 있는데.
 
-> When you get down to a fundamental definition a type is a set of possible values, and nothing more.
+> When you get down to a fundamental definition a type is a set of possible values, and nothing more.  
 > 결국 타입은 가능한 값들의 집합이다.
 
 <img src="./type-diagram.png" alt="type-diagram" style="background: white">
