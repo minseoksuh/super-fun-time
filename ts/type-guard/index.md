@@ -21,6 +21,8 @@
 
 런타임에도 타입체킹을 해서 방어할 수가 있다.
 
-![typeguard](./typeguard.png)
+![runtime](./runtime.png)
 
 cake-form과 타입 가드를 잘 녹여넣는다면 좀 더 믿을 수있게 form을 사용할 수 있을것 같다.
+
+[돌아가기](/README.md)
