@@ -3,12 +3,12 @@
 ## What is the problem?
 
 메쉬코리아에서 개발해 관리하는 리액트 컴포넌트 라이브러리인 vroong-design-system 안에는
-드랍다운 컴포넌트가 있습니다.
+드랍다운 컴포넌트가 있다.
 
 ![dropdown](./dropdown.png)
 
 이 드랍다운 컴포넌트는 선택지를 만들어주는 options 프라퍼티를 필수적으로 받고 있는데,
-아래 옵션 데이터를 배열로 받고 있습니다.
+아래 옵션 데이터를 배열로 받고 있다.
 
 ![option](./option.png)
 
@@ -100,3 +100,5 @@ undefined 가 value 가 될 수 있는 변수를 options props에 넣으려고 �
 - [https://dev.to/janjakubnanista/a-peculiar-journey-to-a-generic-react-component-using-typescript-3cm8](https://dev.to/janjakubnanista/a-peculiar-journey-to-a-generic-react-component-using-typescript-3cm8)
 
 - [https://www.reddit.com/r/typescript/comments/dv07sp/react_typing_generic_function_components/](https://www.reddit.com/r/typescript/comments/dv07sp/react_typing_generic_function_components/)
+
+[돌아가기](/README.md)
