@@ -94,12 +94,16 @@ generator 함수 내에 yield 가 적혀있는 곳까지 실행이 되고 yield 
 ```
 
 우리는 일반적으로 스트링, 숫자, 오브젝트 같은 '값'을 Collection 의 value 로 사용하지만 Generator는
-yield로 나눠지는 코드 블럭들의 컬렉션의 멤버인듯한 느낌입니다. Generator를 통해 나오는 value 값은 yield의 값이기 때문에 좀 개념이 다르기는 하지만 next를 할때 yield 로 나눠지는 코드가 실행이 되기 때문에 위처럼 생각하면 좀 이해의 도움이 될수도 있다고 생각합니다.
+yield로 나눠지는 코드 블럭들이 컬렉션의 멤버인듯한 느낌입니다.
+
+Generator를 통해 나오는 value 값은 yield의 값이기 때문에 좀 개념이 다르기는 하지만 next를 할때 yield 로 나눠지는 코드가 실행이 되기 때문에 위처럼 생각하면 좀 제너레이터 함수 흐름이 좀 직관적으로 이해할수 있다고 생각했습니다.
 
 ![./easy-iterable.png](./easy-iterable.png)
 
 위의 예제를 보면 위해 고생을 해서 만들어 놓은 iterable을 generator로 간단하게 만든 것을 볼수 있습니다.
 
 Iterator와 Generator를 함께 보니 이해가 조금더 잘 된 느낌입니다아
+
+GOOD
 
 [돌아가기](/README.md)
