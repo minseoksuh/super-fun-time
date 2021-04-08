@@ -36,7 +36,7 @@ interface IteratorReturnValue {
 
 일단 Iterable 형태로 만들어 놓으면 내부 구조가 어떻게 되어 있든 사용자는 iterator의 next 함수를 통해 안정적으로 값에 접근할 수 있습니다.
 
-Javascript Iterable 개념이 사용되는 곳 몇개:
+Javascript Iterable 개념이 사용되는 곳:
 
 - Array
 - Strings
@@ -44,10 +44,11 @@ Javascript Iterable 개념이 사용되는 곳 몇개:
 - Sets
 - arguments
 - for-of 루프
-- Destructing
+- Destructing of Array
 - spread (...)
 
 ![./destructuring.png](./destructuring.png)
+Array destructring이 내부적으로 iterator를 어떻게 사용하는지
 
 ## Generator가 뭐고 왜 Generator를 사용하나요?
 
