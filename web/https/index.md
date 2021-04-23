@@ -121,4 +121,11 @@ CA가 인증서에 포함한 서명을 public key로 검증하는 과정이라�
 
 public key와 private key를 통해 클라이언트와 서버가 어떻게 신뢰를 쌓는지 대략적인 흐름은 제대로 이해한 것 같습니다.
 
+## 참고
+
+- [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
+- [http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html](http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html)
+- [https://stackoverflow.com/questions/188266/how-are-ssl-certificates-verified](https://stackoverflow.com/questions/188266/how-are-ssl-certificates-verified)
+- [https://www.tutorialsteacher.com/https](https://www.tutorialsteacher.com/https)
+
 [돌아가기](/README.md)
