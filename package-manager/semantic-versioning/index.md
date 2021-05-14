@@ -1,8 +1,7 @@
 # react-range와 Semantic Versioning
 
-[https://robertcooper.me/post/how-yarn-lock-files-work-and-upgrading-dependencies](https://robertcooper.me/post/how-yarn-lock-files-work-and-upgrading-dependencies)
-[https://classic.yarnpkg.com/en/docs/selective-version-resolutions/](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/)
-[https://www.geeksforgeeks.org/how-does-npm-handle-version-conflicts/](https://www.geeksforgeeks.org/how-does-npm-handle-version-conflicts/)
+- [https://robertcooper.me/post/how-yarn-lock-files-work-and-upgrading-dependencies](https://robertcooper.me/post/how-yarn-lock-files-work-and-upgrading-dependencies)
+- [https://classic.yarnpkg.com/en/docs/selective-version-resolutions/](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/)
 
 최근에 프로젝트를 개발 서버에서 돌릴시, 새로고침 할 때 간헐적으로 react-range 라이브러리 코드에서 오류가 발생했다.
 ˜
@@ -26,7 +25,7 @@ major.minor.patch
 
 ### Version ranges
 
-yarn.lock이 있다면 설치할때 lock에 설정되어 있는 버전을 깔겠지만
+yarn.lock이 있다면 설치할때 lock에 설정되어 있는 버전을 깔겠지만 lock이
 없거나, yarn upgrade를 할 때 버전 범위 안에서 최신을 설치한다.
 
 ```js
@@ -62,7 +61,9 @@ package.json은 굳이 변경하지 않아도 된다.
 
 궁금하던게 만약 두 개의 패키지가 다른 버전의 subDependency를 가지고 있다면 npm이나 yarn은 실제로 어떤 버전을 설치하냐 였습니다.
 
-위에 공유된 사이트가 주장하기로는
+- [https://www.geeksforgeeks.org/how-does-npm-handle-version-conflicts/](https://www.geeksforgeeks.org/how-does-npm-handle-version-conflicts/)
+
+여기에서 보면
 
 패키지 A 와 패키지 B가 설치될때, 몇가지 경우가 있다고 합니다.
 
