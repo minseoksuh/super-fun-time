@@ -52,13 +52,19 @@ cake-form 내에서 dynamicRules를 실행시킬때
 
 > When a method is called as a property of an object, then this refers to the parent object
 
+위의 조건에 적용이 된다.
+
 즉 dynamicRules 오브젝트의 프라퍼티로 this.checkIfUniqueName 함수가 불려서 this가 dynamicRules 오브젝트로 잡혔었던 것 같다.
 
 ![fixed_dynamicRules.png](./fixed_dynamicRules.png)
 
 이렇게 arrow 함수로 감싸준다면 오브젝트의 프라퍼티로 함수를 사용해도
 
-실행 오브젝트가 아닌 context의 this가 저장되서 사용하기 때문에 TaskDetailStore가 제대로 this로 잡히는것으로 이해했다.
+context의 this가 저장되고 변하지 않기 때문에 TaskDetailStore가 제대로 this로 잡히는것으로 이해했다.
+
+[https://stackoverflow.com/questions/33308121/can-you-bind-this-in-an-arrow-function](https://stackoverflow.com/questions/33308121/can-you-bind-this-in-an-arrow-function)
+
+- 위 스택오버플로우를 보면 명확히 arrow 함수는 this rebind 가 되지 않는다고 나와있다.
 
 앞으로도 this를 사용할때 어떻게 동작할지 생각을 해보고 실제 행동을 보면서 익히다 보면 this 에 대해 더 확실히 파악할 수 있을 것 같다.
 

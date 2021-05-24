@@ -1,4 +1,4 @@
-# 이벤트 구조
+# W3 이벤트 설계 - 1
 
 [https://www.w3.org/TR/DOM-Level-3-Events/#dom-event-architecture](https://www.w3.org/TR/DOM-Level-3-Events/#dom-event-architecture)
 
@@ -16,12 +16,12 @@ w3 스펙 내용중 핵심적이라고 생각되는 것만 추려서 정리해�
 
 This section is non-normative. Refer to [DOM](https://dom.spec.whatwg.org/) for a normative description of the DOM event architecture
 
-### 3.1 Event Displatch and Dom event flow
+### 3.1 Event Dispatch and Dom event flow
 
 이벤트가 dispatch 되기 전에 우선 propagation path가 정해진다고 합니다. 이 path 는 event target에 도달하기 위한 node들의 목록으로,
 이 목록 마지막에 있는게 event target이라고 합니다.
 
-path 가 정해지면 본격적으로 이벤트 오브젝트가 움직이는데 event dispatch가 시작되는데 여기에 3 phase 가 있습니다.
+path 가 정해지면 본격적으로 이벤트 오브젝트가 움직이는데 여기에 3 phase 가 있습니다.
 
     1. Capture phase: Window 에서 발생한 이벤트 오브젝트가 조상 엘레멘트들을 타고타고 가서 event target의 부모 노드를 찾아내는 과정
     2. Target phase: 이벤트 오브젝트가 목적지에 도달한 과정
