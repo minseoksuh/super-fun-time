@@ -43,6 +43,7 @@ reverse tabnabbing 에 대한 방어가 되는 거죠.
      (사실 noreferrer 가 noopener의 기능도 해주기 때문에 같이 쓸 필요는 없다고 합니다. 하지만 예전 브라우저 호환성같은 위험이 있을 수 있기 때문에 흔히들 같이 쓴다고 합니다.)
 - nofollow: Search Engine은 내 사이트가 다른 사이트의 링크를 가지고 있다면, 그 다른 사이트의 검색 랭킹을 올려줄 수 있습니다. 내가 그 다른 사이트를 지원해주고 싶지 않다면 이 태그를 붙이면 됩니다. (reverse tabnabbing 과는 관련없음.)
   > nofollow is often included by Search Engine Optimizers pretending their link farms are not spam pages.
+  > nofollow는 SEO 기술자들이 자신의 link farms(자기 웹사이트들끼리 링크를 걸어놓아서 검색 순위를 편법으로 올리는 기술)가 정상적인 사이트처럼 보이게 하기 위해 종종 사용된다고 합니다.
 
 > In a tweet dated November 9, Google developer Mike West wrote that Chrome version 88 and beyond would “match Safari and Firefox's behavior of treating target=\_blank links as noopener by default”.
 > 최신 브라우저에서는 \_blank 라면 기본적으로 noopener 처리가 된다고 합니다.
@@ -67,7 +68,7 @@ setTimeout(location.href = "https://login.microsoftonline.com.office365outlook.5
 
 ![tabnabbing](./tabnabbing.png)
 
-이런 사이트로 보낸다면, 저같이 정신 못 차리고 사는 사람들은 로그인 정보를 입력하고 털릴것입니다.
+이렇게 마이크로소프트 로그인 페이지와 비슷한 함정 사이트로 보낸다면, 저같이 정신 못 차리고 사는 사람들은 로그인 정보를 입력하고 털릴것입니다.
 
 보안 전문가님이 얘기하시는 걸로는
 
