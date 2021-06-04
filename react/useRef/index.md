@@ -6,7 +6,7 @@
 
 [https://reactjs.org/docs/hooks-reference.html#useref](https://reactjs.org/docs/hooks-reference.html#useref)
 
-----이하는 위의 문서에 대한 번역입니다.----
+## ----이하는 위의 문서에 대한 번역입니다.----
 
 useRef는 수정가능한 ref 오브젝트를 돌려주고, current 프라퍼티는 인자로 넘겨진 값으로 설정됩니다.
 **ref 오브젝트는 컴포넌트의 전체 수명동안 살아있습니다**
@@ -58,6 +58,8 @@ function MeasureExample() {
   );
 }
 ```
+
+---
 
 위와 같이 useCallback을 ref로 넘겨주면, 해당 DOM node가 변경될때마다 콜백 코드가 실행이 됩니다. 적절한 상황에 사용하면 유용할듯.
 
