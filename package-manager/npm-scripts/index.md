@@ -72,13 +72,13 @@ config 파라메터가 `npm_config_` prefix를 통해 확인 가능함
 `npm_lifecycle_event` 변수가 현재 도는 사이클로 설정이 됩니다.
 현재 어떤 사이클 중인지 알아야 할 때 쓰면 될듯.
 
-### Exiting
+## Exiting
 
 script가 0말고 다른 코드로 exit 된다면, 프로세스가 중단됨.
 
 `echo \"Error: no test specified\" && exit 1`
 
-### Hook Scripts
+## Hook Scripts
 
 lifecycle 이벤트에 훅을 달아놓을 수 있습니다.
 
@@ -86,7 +86,7 @@ lifecycle 이벤트에 훅을 달아놓을 수 있습니다.
 
 여기에 해당 이벤트명으로 등록해 놓으면 불린다고함.
 
-### Best Practices
+## Best Practices
 
 - Don't exit with a non-zero error code unless you really mean it.
 
@@ -97,6 +97,7 @@ lifecycle 이벤트에 훅을 달아놓을 수 있습니다.
 - Don't prefix your script commands with "sudo".
 
 - Don't use install
+  > Use a .gyp file for compilation, and prepublish for anything else. You should almost never have to explicitly set a preinstall or install script.
 
 ## Reference
 
