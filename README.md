@@ -2,7 +2,8 @@
 
 # Randy의 WIL 공간
 
-## In the outside world I'm a simple geologist. But in HERE...I am Falcorn, defender of the Alliance.
+## In the outside world I'm a simple geologist.  
+But in HERE...I am Falcorn, defender of the Alliance.
 
 <img src="./butinhere.png" alt="butinhere image" style="width: 300px">
 
