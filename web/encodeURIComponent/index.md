@@ -7,7 +7,8 @@ encodeURIComponet를 더 정확히 이해하고 싶어서 확인해 봤다.
 > The encodeURIComponent() function encodes a URI by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character (will only be four escape sequences for characters composed of two "surrogate" characters).
 
 - 특정 문자들을 UTF-8 인코딩 값으로 바꿔 url에서 reserved된 문자들과의 충돌로 생길 수 있는 문제를 막는다.
- *그런데 UTF-8을 잘 몰라서 더 조사해 봤다.*
+
+'그런데 UTF-8을 잘 몰라서 더 조사해 봤다.'
 
 ## Unicode (Universal Character Set)
 
@@ -38,8 +39,8 @@ encodeURIComponet를 더 정확히 이해하고 싶어서 확인해 봤다.
 - 2 바이트 (11000010 "10"100010) - 11bit 사용가능
 - 3 바이트 - 16bit 사용가능
 - 4 바이트 - 20bit 사용가능
-*여기서 추가로 인코딩 관련해서 생각나는 것들에 대해 더 조사해 봄*
 
+'여기서 추가로 인코딩 관련해서 생각나는 것들에 대해 더 조사해 봄.'
 ## html `<meta charset="utf-8" />`
 
 - [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
@@ -66,6 +67,6 @@ ASCII 문자만을 사용해 unicode 문자를 사용하게 해주기 위해
 - Window OS 같은데서 많이 사용한다고 함.
 - Web에서는 거의 UTF-8를 사용하고 (97%), 예전에 UTF-16를 많이 썻던 분야도 서서히 UTF-8을 지원하도록 바뀌고 있다고 함.
 
-*그냥 우선 Unicode, UTF-8만 잘 이해하고 쓰면 될듯 하다.*
+'그냥 우선 Unicode, UTF-8만 잘 이해하고 쓰면 될듯 하다.'
 
 [돌아가기](/README.md)
