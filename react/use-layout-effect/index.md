@@ -346,7 +346,7 @@ schedulePassiveEffects(finishedWork);
 
 useLayoutEffect 내 코드도 비동기처리가 되고 useEffect 코드 후에 등록되기 때문에
 
-![reverse-effect.png](./reverse-effect.png)
+![reverse-effects.png](./reverse-effects.png)
 
 실제로 이렇게 순서가 바뀌어서 실행이 된다.
 
