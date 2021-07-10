@@ -11,8 +11,8 @@ useLayoutEffect를 공식 문서에서는 이렇게 정의하고 있다.
 > Prefer the standard useEffect when possible to avoid blocking visual updates.
 >
 > 시그니쳐는 useEffect와 동일하다, 하지만 DOM Mutations 이후에 동기적으로 실행된다는 점이 다르다. DOM으로부터 layout을 읽고 동기적으로 리렌더를 하고 싶을때 사용하면 된다. useLayoutEffect 안에 스케쥴되어 있는 업데이트들은 브라우저가 페인트할 기회를 가지기 전에 동기적으로 처리된다.
-
-"visual update blocking을 피하기 위해 가능하면 useEffect를 사용하세요."
+>
+> visual update blocking을 피하기 위해 가능하면 useEffect를 사용하세요.
 
 ## 왜 useLayoutEffect는 visual update blocking을 유발할까?`
 
@@ -53,12 +53,12 @@ useLayoutEffect를 공식 문서에서는 이렇게 정의하고 있다.
 
 pixel pipeline과 비교해서 보면
 
-`React.Component render` > `Dom Mutation` 까지가 Javascript에 속하는 부분이라고 볼수 있겠다.
+`React.Component render` > `Dom Mutation` > `useLayoutEffect, componentDidMount`  까지가 Javascript에 속하는 부분이라고 볼수 있겠다.
 
 이 Javascript 실행이 일단 마무리가 되야 브라우저가 비쥬얼 업데이트 (paint)를 할 기회가 있는데 `useLayoutEffect, componentDidMount`에서 연산이 길면 paint가 늦어질수 있다는 것.  
 useEffect는 setTimeout 같이 다음 '이벤트'로 처리되기때문에 paint 후에 비동기로 들어감.
 
-useEffect : setTimeout
+useEffect : setTimeout  
 useLayoutEffect : requestAnimationFrame
 
 ## 리액트에서 해당 차이점은 어떻게 구현이 되어 있을까?
@@ -331,7 +331,7 @@ export function enqueuePendingPassiveHookEffectUnmount(
 
 반면 `commitHookEffectListMount(HookLayout | HookHasEffect, finishedWork)`은 useLayoutEffect 내 코드를 `scheduleCallback`으로 처리하지 않고 그대로 동기적으로 코드를 실행한다.
 
-만약 `commitHookEffectListMount(HookLayout | HookHasEffect, finishedWork)`도 `scheduleCallback`으로 감싸고 `flushPassiveEffects`와 순서를 바꿔보면
+만약 `commitHookEffectListMount(HookLayout | HookHasEffect, finishedWork)`도 `scheduleCallback`으로 감싸고 `schedulePassiveEffects(finishedWork)`와 순서를 바꿔보면
 
 ```js
 schedulePassiveEffects(finishedWork);
@@ -349,5 +349,7 @@ useLayoutEffect 내 코드도 비동기처리가 되고 useEffect 코드 후에 
 ![reverse-effect.png](./reverse-effect.png)
 
 실제로 이렇게 순서가 바뀌어서 실행이 된다.
+
+`commitLifeCycles` 속에서 `ClassComponent`일 경우 `componentDidMount`, `componentDidUpdate`도 `useLayoutEffects`와 비슷하게 처리해주는 모습도 인상적이다.
 
 [돌아가기](/README.md)
