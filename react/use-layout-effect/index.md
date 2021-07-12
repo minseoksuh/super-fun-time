@@ -333,13 +333,17 @@ export function enqueuePendingPassiveHookEffectUnmount(
 
 반면 `commitHookEffectListMount(HookLayout | HookHasEffect, finishedWork)`은 useLayoutEffect 내 코드를 `scheduleCallback`으로 처리하지 않고 그대로 동기적으로 코드를 실행한다.
 
-만약 `commitHookEffectListMount(HookLayout | HookHasEffect, finishedWork)`도 `scheduleCallback`으로 감싸고 `schedulePassiveEffects(finishedWork)`와 순서를 바꿔보면
+## 실험
+
+ `commitHookEffectListMount(HookLayout | HookHasEffect, finishedWork)`도 `scheduleCallback`으로 감싸고 `schedulePassiveEffects(finishedWork)`와 순서를 바꿔보면
 
 ```js
+// scheduleCallback(useEffect)
 schedulePassiveEffects(finishedWork);
 
 {
   scheduleCallback(NormalPriority$1, function () {
+    // useLayoutEffect
     commitHookEffectListMount(Layout | HasEffect, finishedWork);
     return null;
   });
@@ -352,6 +356,6 @@ useLayoutEffect 내 코드도 비동기처리가 되고 useEffect 코드 후에 
 
 실제로 이렇게 순서가 바뀌어서 실행이 된다.
 
-`commitLifeCycles` 속에서 `ClassComponent`일 경우 `componentDidMount`, `componentDidUpdate`도 `useLayoutEffects`와 비슷하게 처리해주는 모습도 인상적이다.
+> `commitLifeCycles` 속에서 `ClassComponent`일 경우 `componentDidMount`, `componentDidUpdate`도 `useLayoutEffects`와 비슷하게 처리해주는 모습도 인상적이다.
 
 [돌아가기](/README.md)
