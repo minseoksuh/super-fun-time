@@ -53,12 +53,13 @@ useLayoutEffect를 공식 문서에서는 이렇게 정의하고 있다.
 
 pixel pipeline과 비교해서 보면
 
-`React.Component render` > `Dom Mutation` > `useLayoutEffect, componentDidMount`  까지가 Javascript에 속하는 부분이라고 볼수 있겠다.
+`React.Component render` > `Dom Mutation` > `useLayoutEffect, componentDidMount`  까지가 위 그림에서 `Javascript`에 속하는 부분이라고 볼수 있겠다.
 
-이 Javascript 실행이 일단 마무리가 되야 브라우저가 비쥬얼 업데이트 (paint)를 할 기회가 있는데 `useLayoutEffect, componentDidMount`에서 연산이 길면 paint가 늦어질수 있다는 것.  
+이 `Javascript` 실행이 일단 마무리가 되야 브라우저가 비쥬얼 업데이트 (paint)를 할 기회가 있는데 `useLayoutEffect, componentDidMount`에서 연산이 길면 paint가 늦어질수 있다는 것.  
+
 useEffect는 setTimeout 같이 다음 '이벤트'로 처리되기때문에 paint 후에 비동기로 들어감.
 
-> 뭔가 개념이 통하는게 있는거 같아서 메모를 남긴다
+> 개념적으로 연결이 되는듯  
 > useEffect : setTimeout  
 > useLayoutEffect : requestAnimationFrame
 
