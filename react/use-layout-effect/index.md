@@ -31,7 +31,7 @@ useLayoutEffect를 공식 문서에서는 이렇게 정의하고 있다.
 
 ## render vs paint: The Pixel Pipeline
 
-> The one catch is that this runs **after react renders your component** and ensures that your effect callback does not block browser painting. This differs from the behavior in class components where componentDidMount and componentDidUpdate run **synchronously after rendering**.
+> The one catch is that this runs **after react renders your component(2)** and ensures that your effect callback does not block browser painting. This differs from the behavior in class components where componentDidMount and componentDidUpdate run **synchronously after rendering(1)**.
 
 위 블로그에서 render라는 표현을 두 가지 의미로 다르게 사용해서 헷갈리게 만드는 부분이 있는데
 
@@ -58,8 +58,9 @@ pixel pipeline과 비교해서 보면
 이 Javascript 실행이 일단 마무리가 되야 브라우저가 비쥬얼 업데이트 (paint)를 할 기회가 있는데 `useLayoutEffect, componentDidMount`에서 연산이 길면 paint가 늦어질수 있다는 것.  
 useEffect는 setTimeout 같이 다음 '이벤트'로 처리되기때문에 paint 후에 비동기로 들어감.
 
-useEffect : setTimeout  
-useLayoutEffect : requestAnimationFrame
+> 뭔가 개념이 통하는게 있는거 같아서 메모를 남긴다
+> useEffect : setTimeout  
+> useLayoutEffect : requestAnimationFrame
 
 ## 리액트에서 해당 차이점은 어떻게 구현이 되어 있을까?
 
