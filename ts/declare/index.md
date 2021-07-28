@@ -10,9 +10,11 @@
 
 > declare is used to tell the compiler "this thing (usually a variable) exists already, and therefore can be referenced by other code, also there is no need to compile this statement into any JavaScript".
 
-1. declare는 컴파일러에게 "이것"은 이미 존자한다고 알려줌
-2. 그러므로 "이것"은 다른 것들에게 정상적으로 참조될 수 있음
-3. 이 코드는 자바스크립트로 컴파일할 필요 없음
+- declare는 ts 컴파일러에게 "이것"은 이미 존재한다고 알려줌
+- 그러므로 "이것"은 다른 것들에게 정상적으로 참조될 수 있음
+- 이 코드는 자바스크립트로 컴파일할 필요 없음
+
+## TMS
 
 ```ts
 declare namespace NodeJS {
@@ -32,8 +34,9 @@ declare namespace NodeJS {
 }
 ```
 
-TMS 내에 사용되는 위 코드를 보면, 빌드 타이밍에 process env에 스크립트로 위 프라퍼티들을 설정해 주는데,
-타입스크립트 컴파일러는 그것을 모르기 때문에 오류로 처리함. 그것에 대응하기 위한 코드라고 볼 수 있겠다.
+TMS 내에 사용되는 위 코드를 보면, 빌드 타이밍에 process env에 스크립트로 위 프라퍼티들을 설정해 주는데,  
+타입스크립트 컴파일러는 그것을 모르기 때문에 해당 프라퍼티에 그냥 접근하려고 하면 오류로 처리됨.  
+그것에 대응하기 위한 코드라고 볼 수 있겠다.
 
 보통 @types/module 패키지에서 module 내 자바스크립트 코드에 대한 타입 정의를 해주기 위해 사용됨.
 
