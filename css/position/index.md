@@ -1,4 +1,4 @@
-# position 확실히 이해하기 - 1
+# position 이해하기 - 1
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
@@ -49,8 +49,6 @@
 
 <!-- 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block
-
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
 
 - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
