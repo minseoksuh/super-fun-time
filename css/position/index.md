@@ -45,7 +45,7 @@
 - 언제나 새로운 __stacking context__ 를 만듦
 - 주의: sticky element들은 부모중 스크롤 메커니즘을 가지고 있는 가장 가까운 element에 붙습니다. (`overflow` 프라퍼티를 `hidden, scroll, auto, overlay` 값을 주면 스크롤 메커니즘이 생깁니다) 그 부모가 진짜 스크롤을 하고 있지 않더라도 말이죠. 이 경우 sticky 행동은 억제됩니다.
 
-[돌아가기](./README.md)
+[돌아가기](/README.md)
 
 <!-- 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block

@@ -61,4 +61,4 @@ DIV #4, DIV #5, DIV #6은  DIV #3의 자식이기 때문에 4, 5, 6의 stacking�
 - Element with a will-change value specifying any property that would create a stacking context on non-initial value (see this post).
 - Element with a contain value of layout, or paint, or a composite value that includes either of them (i.e. contain: strict, contain: content).
 
-[돌아가기](./README.md)
+[돌아가기](/README.md)

@@ -186,4 +186,4 @@ p {
 
 위의 경우 `<p>`가 `absolute` 이고 `<section>`의 `transform` 값이 `none`이 아니기 때문에 `<section>`이 containing block이 됩니다.
 
-[돌아가기](./README.md)
+[돌아가기](/README.md)
