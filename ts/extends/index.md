@@ -79,4 +79,4 @@ const test = {
 
 어쨌든 적으면서 좀 이해가 되서 다행이다.
 
-[돌아가기](./README.md)
+[돌아가기](/README.md)

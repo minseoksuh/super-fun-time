@@ -40,4 +40,4 @@ TMS 내에 사용되는 위 코드를 보면, 빌드 타이밍에 process env에
 
 보통 @types/module 패키지에서 module 내 자바스크립트 코드에 대한 타입 정의를 해주기 위해 사용됨.
 
-[돌아가기](./README.md)
+[돌아가기](/README.md)
