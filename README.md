@@ -1,6 +1,4 @@
-﻿<!-- markdownlint-disable-file MD026 -->
-
-# minseoksuh's WIL space
+﻿# minseoksuh's WIL space
 
 <img src="./butinhere.png" alt="butinhere image" style="width: 300px">
 
