@@ -222,4 +222,18 @@ study about web attacks
     1. session fixation
     3. csrf
     4. https://www.cisco.com/c/en_au/products/security/common-cyberattacks.html#~types-of-cyber-attacks
+
+https://developer.mozilla.org/en-US/docs/Web/CSS: css key concepts
+  (https://www.w3.org/TR/CSS2/visudet.html#containing-block-details)
+
+https://www.w3.org/TR/CSS2/media.html#continuous-media-group
+
+https://www.w3.org/TR/CSS2/visuren.html#normal-flow
+
+https://stackoverflow.com/questions/12468176/what-is-a-non-replaced-inline-element & https://developer.mozilla.org/en-US/docs/Web/CSS/height
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout
+
 -->
+
+
