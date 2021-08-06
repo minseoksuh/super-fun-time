@@ -42,11 +42,12 @@
 - [declare는 왜 사용하나요](./ts/declare/index.md)
 
 ## css
-
+<!-- https://www.w3.org/TR/css-display-3/ -->
 - [vertical-align, baseline](./css/verticalalign-baseline/index.md)
 - [position 이해하기 - 1](./css/position/index.md)
 - [Stacking Context - 2](./css/stacking-context/index.md)
 - [Containing Block - 3](./css/containing-block/index.md)
+- [Normal Flow 안의 block, inline layout (+ Margin Collapsing) - 4](./css/block-inline-normal-flow/index.md)
 
 ## React
 
@@ -83,15 +84,24 @@
 
 TODO: 
 
+overflow
+
 1. typescript version up class properties issue.
 
 2. eslint-plugin: https://github.com/meshkorea/vroong-tms-manager-web/pull/22
+- see why plugin github page does not show on SEO
 
 3. review-count github app
 
 4. blog
 
+viewport and continuous media - check and report to W3C if needed
+
 TOPICS:
+how does css update? w3c
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model
+
 https://ui.toast.com/weekly-pick/ko_20210713
 
 margin hoisting? https://stackoverflow.com/questions/13573653/css-margin-terror-margin-adds-space-outside-parent-element
@@ -232,6 +242,6 @@ https://stackoverflow.com/questions/12468176/what-is-a-non-replaced-inline-eleme
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout
 
+https://www.w3.org/TR/css-flexbox-1/
+
 -->
-
-
