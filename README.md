@@ -30,6 +30,7 @@
 - [this 이해하기](./js/this/index.md)
 - [W3 이벤트 설계 - 1](./js/event-architecture/index.md)
 - [이벤트에 대해서 더 알아보자 - 2](./js/understanding-events/index.md)
+- [regex 이해하기](./js/regex/index.md)
 
 ## TypeScript
 
@@ -76,7 +77,7 @@
 
 - [HTTP Cache를 사용해서 불필요한 네트워크 요청을 방지하자](./translations/http-cache/index.md)
 
-## Link
+## Links
 
 - [https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9](https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9)
 - [https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version](https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version)
