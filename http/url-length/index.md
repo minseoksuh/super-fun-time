@@ -12,4 +12,4 @@ api에서 id의 배열을 사용해 query를 만드는 부분이 있는데,
 
 [https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers](https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers)
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

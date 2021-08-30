@@ -103,4 +103,4 @@ lifecycle 이벤트에 훅을 달아놓을 수 있습니다.
 
 [https://docs.npmjs.com/cli/v7/using-npm/scripts](https://docs.npmjs.com/cli/v7/using-npm/scripts)
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

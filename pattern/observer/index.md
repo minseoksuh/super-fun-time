@@ -14,4 +14,4 @@ MobX에서 사용하는 개념중에 observable이라는 개념이 존재하고 
 
 Implementation 마다 차이가 있겠지만 옵저버 패턴의 작동법을 대략적으로 파악할 수 있었던 것 같다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

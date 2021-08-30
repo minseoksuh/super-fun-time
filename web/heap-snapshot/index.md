@@ -39,4 +39,4 @@ Chrome Devtool에 있는 heap snapshot을 사용해볼 기회가 있었다.
 
 [https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

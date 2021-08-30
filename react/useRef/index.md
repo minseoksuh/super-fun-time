@@ -63,4 +63,4 @@ function MeasureExample() {
 
 위와 같이 useCallback을 ref로 넘겨주면, 해당 DOM node가 변경될때마다 콜백 코드가 실행이 됩니다. 적절한 상황에 사용하면 유용할듯.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

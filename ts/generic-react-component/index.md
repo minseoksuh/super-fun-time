@@ -101,4 +101,4 @@ undefined 가 value 가 될 수 있는 변수를 options props에 넣으려고 �
 
 - [https://www.reddit.com/r/typescript/comments/dv07sp/react_typing_generic_function_components/](https://www.reddit.com/r/typescript/comments/dv07sp/react_typing_generic_function_components/)
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

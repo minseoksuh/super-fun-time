@@ -99,4 +99,4 @@
 
 - [https://javascript.info/bubbling-and-capturing](https://javascript.info/bubbling-and-capturing)
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

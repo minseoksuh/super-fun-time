@@ -171,4 +171,4 @@ Cache-Control 헤더에 대해 더 깊이 배우고 싶으시다면, Jake Archib
 | public, max-age=31536000 | Response가 어떤 캐시든 1년동안 캐싱될 수 있습니다                                      |
 | no-store                 | 이 Response는 캐싱될 수 없고 언제나 서버에게 완전한 파일을 받아야 합니다.              |
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

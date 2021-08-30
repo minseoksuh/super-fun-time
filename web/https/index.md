@@ -15,10 +15,6 @@
 
 ## HTTPS는 어떻게 동작하고 왜 안전하나요?
 
-그런데 말입니다.
-
-왜 HTTPS가 안전한지를 이해하기 위해 어떻게 동작하는지를 찾아가봤습니다.
-
 ![ssl-communication.png](./ssl-communication.png)
 
 위의 그림을 보면
@@ -128,4 +124,4 @@ public key와 private key를 통해 클라이언트와 서버가 어떻게 신�
 - [https://stackoverflow.com/questions/188266/how-are-ssl-certificates-verified](https://stackoverflow.com/questions/188266/how-are-ssl-certificates-verified)
 - [https://www.tutorialsteacher.com/https](https://www.tutorialsteacher.com/https)
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

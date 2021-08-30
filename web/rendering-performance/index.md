@@ -6,9 +6,7 @@
 
 페이지의 view가 어떻게 인터렉티브하게 업데이트 되는지 알아보고 싶었다.
 
-리액트 같은 CSR 같은 경우 routes 변환 같은 새 페이지 구성도 실제로는 JavaScript를 통해 업데이트 되는 것이기 때문에
-
-업데이트 Render 파이프라인을 잘 알고 있는게 중요하다고 생각했다.
+리액트 같은 Client Side Rendering 같은 경우 routes 변환 같은 새 페이지 구성도 실제로는 JavaScript를 통해 업데이트 되는 것이기 때문에 업데이트 Render 파이프라인을 잘 알고 있는게 중요하다고 생각했다.
 
 - 일반적으로 브라우저는 1초에 60번 화면을 refresh 한다고 한다.
 - 계산하면 16ms에 한번 화면이 업데이트 되어야 하는데, 브라우저는 화면 업데이트 말고 다른 일도 처리해야 되기 때문에 실제로는 10ms 내에 화면 처리가 끝나야 뚝뚝 끊기지 않는 부드러운 ux를 제공할수 있다고 한다.
@@ -34,8 +32,5 @@ JavaScript, Style, Layout, Paint 각각 단계가 실행되어야 하는지 파�
 css property 별로 layout, paint 단계가 들어가는지 브라우저가 정의를 하고 있는데  
 [https://csstriggers.com/](https://csstriggers.com/)  
 여기에 가보면 어떤 css property가 어떤 렌더 단계를 발생시키는지 정리를 해 놓았다.
-
-> @mindfull 님이 예전에 requestAnimationFrame을 사용해서 spinner가 돌지 않는 문제를 해결하셨는데
-> 이제야 그 함수가 어떤일을 하는지 이해가 되는것 같다. 비쥬얼 업데이트가 필요한 코드를 프레임 최초에 실행시켜서 (render, paint 전에) 비쥬얼 업데이트가 js code 병목같은 변수에 영향을 받지 않게 하는것
 
 [https://flaviocopes.com/requestanimationframe/](https://flaviocopes.com/requestanimationframe/)

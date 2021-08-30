@@ -25,4 +25,4 @@ Map 뿐만이 아니라 Set, Array 도 동일하게 행동하는 것을 확인�
 > useMemo같은 리액트 훅을 사용할 때 object형태의 dependency가 있을 경우,  
 > 꼭 object 카피를 해 새로운 reference를 만들어 주어서 콜백이 확실히 불리도록 주의하자.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

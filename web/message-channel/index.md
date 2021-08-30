@@ -114,4 +114,4 @@ IFrame의 이벤트의 반응해 main에 영향을 줄수 있다.
 
 리액트 라이브러리에서는 scheduler가 MessageChannel api를 사용해 동작하는것을 볼수 있다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

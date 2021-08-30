@@ -1,4 +1,4 @@
-# useLayoutEffect 이해하기
+# useLayoutEffect는 어떻게 동작하는가
 
 ## useLayoutEffect
 
@@ -358,4 +358,4 @@ useLayoutEffect 내 코드도 비동기처리가 되고 useEffect 코드 후에 
 
 > `commitLifeCycles` 속에서 `ClassComponent`일 경우 `componentDidMount`, `componentDidUpdate`도 `useLayoutEffects`와 비슷하게 처리해주는 모습도 인상적이다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

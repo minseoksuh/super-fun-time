@@ -68,4 +68,4 @@ context의 this가 저장되고 변하지 않기 때문에 TaskDetailStore가 �
 
 앞으로도 this를 사용할때 어떻게 동작할지 생각을 해보고 실제 행동을 보면서 익히다 보면 this 에 대해 더 확실히 파악할 수 있을 것 같다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

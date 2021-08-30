@@ -162,4 +162,4 @@ requestAnimationFrame과 setTimeout 두개를 섞어서 사용할 필요 없이
 
 둘중에 하나만 사용해도 해당 버그를 해결할 수 있다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

@@ -56,4 +56,4 @@ in something 문법을 사용해 key 타입을 정해 주면 something을 iterat
 
 이제 api에서 enum에 슬쩍 값을 추가하더라도 좀 안심할 수 있을것 같다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

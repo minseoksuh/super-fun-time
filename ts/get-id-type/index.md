@@ -27,4 +27,4 @@ GetIdType 처럼 사용해 만약 들어온 제네릭이 Model 형태가 아닐 
 그리고 모델이 받는 제네릭을 `infer U` 로 타입 변수로 뽑아내
 실제 모델 내의 Id 타입을 GetIdType을 통해 가져올 수 있는 것이다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

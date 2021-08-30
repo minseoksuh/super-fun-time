@@ -107,4 +107,4 @@ Iterator와 Generator를 함께 보니 이해가 조금더 잘 된 느낌입니�
 
 GOOD
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

@@ -36,4 +36,4 @@ base64가 뭔지 이해가 안되서 조사를 해보았다.
 
 base64를 사용하기 위한 Window.btoa, Window.atob
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

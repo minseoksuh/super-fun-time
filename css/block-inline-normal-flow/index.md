@@ -73,4 +73,4 @@ CSS 2.1 스펙에 의하면, normal flow 안에 있는 모든 박스들은 __for
 
 - `<strong>` 같이 기본적으로 inline element도 `display: block`을 사용해 context를 바꿀 수 있다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

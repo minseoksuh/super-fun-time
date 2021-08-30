@@ -40,4 +40,4 @@ in 이라는 키워드가 사용되는걸 처음 봐서 조사를 해 보았다.
 Object.prototype.hasOwnProperty.call(foo, "bar");
 ```
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

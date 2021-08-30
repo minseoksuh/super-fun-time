@@ -24,4 +24,4 @@ define(["module1", "module2"], function (module1, module2) {
 
 편하고 좋은데 아직 지원이 안되는 환경이 생각보다 많아서 Babel같은거로 transpile을 하거나 esm을 써야함.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

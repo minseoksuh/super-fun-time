@@ -82,4 +82,4 @@ setTimeout(location.href = "https://login.microsoftonline.com.office365outlook.5
 
 그 틈을 노려서 저도 언제 한번 해봐야겠습니다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

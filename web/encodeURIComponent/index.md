@@ -70,4 +70,4 @@ ASCII 문자만을 사용해 unicode 문자를 사용하게 해주기 위해
 
 `그냥 우선 Unicode, UTF-8만 잘 이해하고 쓰면 될듯 하다.`
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)

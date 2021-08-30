@@ -37,4 +37,4 @@ Same Origin은 세가지가 같아야 한다.
 
 - CORS 관련 헤더는(서버, 클라이언트) 일반적으로 Access-Control-\* 의 패턴을 사용하는 것 같다.
 
-[돌아가기](/README.md)
+[돌아가기](../../README.md)
