@@ -72,10 +72,10 @@
 
 - [옵저버 패턴과 리액트](./pattern/observer/index.md)
 
-## Links
+<!-- ## Links
 
 - [https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9](https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9)
-- [https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version](https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version)
+- [https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version](https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version) -->
 
 <!--
 
