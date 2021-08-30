@@ -18,7 +18,7 @@
 - [CORS](./http/cors/index.md)
 - [Cookies](./http/cookies/index.md)
 - [URL의 길이와 GET의 한계](./http/url-length/index.md)
-- [HTTP Cache를 사용해서 불필요한 네트워크 요청을 방지하자](./http/http-cache/index.md)(번역)
+- [HTTP Cache를 사용해서 불필요한 네트워크 요청을 방지하자](./http/http-cache/index.md) (번역)
 
 ## JavaScript
 
@@ -31,7 +31,7 @@
 - [W3 이벤트 설계 - 1](./js/event-architecture/index.md)
 - [이벤트에 대해서 더 알아보자 - 2](./js/understanding-events/index.md)
 - [regex 이해하기](./js/regex/index.md)
-- [공룡들을 위해 설명한 현대 자바스크립트](./js/modern-javascript/index.md)(번역)
+- [공룡들을 위해 설명한 현대 자바스크립트](./js/modern-javascript/index.md) (번역)
 
 ## TypeScript
 
@@ -46,10 +46,10 @@
 ## css
 
 - [vertical-align, baseline](./css/verticalalign-baseline/index.md)
-- [position 이해하기 - 1](./css/position/index.md)(번역/요약)
-- [Stacking Context - 2](./css/stacking-context/index.md)(번역/요약)
-- [Containing Block - 3](./css/containing-block/index.md)(번역/요약)
-- [Normal Flow 안의 block, inline layout (+ Margin Collapsing) - 4](./css/block-inline-normal-flow/index.md)(번역/요약)
+- [position 이해하기 - 1](./css/position/index.md) (번역/요약)
+- [Stacking Context - 2](./css/stacking-context/index.md) (번역/요약)
+- [Containing Block - 3](./css/containing-block/index.md) (번역/요약)
+- [Normal Flow 안의 block, inline layout (+ Margin Collapsing) - 4](./css/block-inline-normal-flow/index.md) (번역/요약)
 
 ## React
 
