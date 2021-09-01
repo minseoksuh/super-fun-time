@@ -12,6 +12,7 @@
 - [base64](./web/base64/index.md)
 - [HTTPS를 이해해보자](./web/https/index.md)
 - [encodeURIComponent & UTF-8](./web/encodeURIComponent/index.md)
+- [svg path 이해하기](./web/svg-path/index.md)
 
 ## HTTP
 
@@ -73,6 +74,9 @@
 - [옵저버 패턴과 리액트](./pattern/observer/index.md)
 
 <!-- ## Links
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
+https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course
 
 - [https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9](https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9)
 - [https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version](https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version) -->
