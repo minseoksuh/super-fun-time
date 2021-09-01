@@ -18,7 +18,7 @@
 
 [https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths)
 
-- 우선 path는 svg 안에 넣을수 있는 여러 가지 도형 중에 하나로, (ex: `<rectangle />`, `<circle />` 등) 가장 자유롭게 사용할수 있는 도형이라고 한다. 
+- 우선 path는 svg 안에 넣을수 있는 여러 가지 도형 중에 하나로, (ex: `<rectangle />`, `<circle />` 등) 가장 자유롭게 사용할수 있는 도형이라고 한다. 
 
 - polyline도 path 처럼 여러 선으로 도형을 만들수 있지만, path는 곡선을 표현할수 있다는 점에서 더 자유도가 높다고 할 수 있다. (이 글에서는 직선에 관해서만 다루려고 한다.)
 
@@ -63,9 +63,7 @@ path로 선을 그릴때 5가지 명령어를 사용할 수가 있다.
 
 최초 문제가 있었던 svg를 보면 형태가 아래와 같다.
 
-<svg width=24 height=24 viewBox="0 0 24 24" style="background-color:red">
-  <path d="M0.833252 0.333374L4.99992 4.50004L9.16658 0.333374H0.833252Z" fill="black" />
-</svg>
+![before.png](./before.png)
 
 ```svg
 <svg width=24 height=24 viewBox="0 0 16 16" style="background-color:red">
@@ -85,7 +83,7 @@ height: 4.166666
 x: (16 - 8.333328) / 2 = 3.833336  
 y: (16 - 4.166666) / 2 = 5.916667
 
-가 된다. 
+가 된다.
 
 `d="M3.833336 5.916667"`
 
@@ -101,9 +99,7 @@ y: (16 - 4.166666) / 2 = 5.916667
 
 `d="M3.833336 5.916667 h8.333328 ㅣ-4.166664 4.166666Z"`
 
-<svg width=16 height=16 viewBox="0 0 16 16" style="background-color:red">
-  <path d="M3.833336 5.916667 h8.333328 l-4.166664 4.166666Z" fill="black" />
-</svg>
+![fixed.png](./fixed.png)
 
 ```svg
 <svg width=16 height=16 viewBox="0 0 16 16" style="background-color:red">
