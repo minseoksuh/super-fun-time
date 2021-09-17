@@ -75,6 +75,16 @@
 
 <!-- ## Links
 
+https://blog.mathpresso.com/react-deep-dive-react-event-system-1-759523d90341
+
+- Proxy, Mobx, ChannelDropdown
+https://mobx.js.org/configuration.html
+https://mobx.js.org/observable-state.html
+
+https://evan-moon.github.io/2020/05/21/about-cors/
+
+https://stackoverflow.com/questions/49464634/difference-between-object-and-object-in-typescript
+
 https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
 https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course
 
