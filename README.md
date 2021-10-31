@@ -40,7 +40,7 @@
 - [Extends와 타입의 관계](./ts/extends/index.md)
 - [타입가드를 통해 런타입 타입 체킹하기](./ts/type-guard/index.md)
 - [Mapped types](./ts/mapped-types/index.md)
-- [제네릭 타입을 사용하는 리액트 드랍다운을 만들어 보자 - 1](./ts/generic-react-component/index.md)
+- [제네릭 타입을 사용하는 리액트 드랍다운을 만들어 보자](./ts/generic-react-component/index.md)
 - [declare는 왜 사용하나요](./ts/declare/index.md)
 
 ## css
@@ -80,6 +80,7 @@
 <!--
 
 TODO: 
+https://stackoverflow.com/questions/310870/use-of-prototype-vs-this-in-javascript
 https://www.w3.org/TR/css-display-3/
 overflow
 [Critical Rendering Path](./web/critical-rendering-path/notes.md)
