@@ -78,6 +78,8 @@ DropdownOption interface 에 사용되는 타입 형태가 실제로 input된 �
 
 ![objectValue](./objectValue.png)
 
+## Reference
+
 - [https://dev.to/janjakubnanista/a-peculiar-journey-to-a-generic-react-component-using-typescript-3cm8](https://dev.to/janjakubnanista/a-peculiar-journey-to-a-generic-react-component-using-typescript-3cm8)
 
 - [https://www.reddit.com/r/typescript/comments/dv07sp/react_typing_generic_function_components/](https://www.reddit.com/r/typescript/comments/dv07sp/react_typing_generic_function_components/)
