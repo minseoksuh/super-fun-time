@@ -54,7 +54,7 @@ _extends unknown 을 굳이 한 이유는 arrow function 형태에서 `<T>` 이�
 
 이제 컴포넌트가 제너릭 타입을 사용하니 사용처에 가서 options 타입을 확인해 보자
 
-![type-inteference](./type-inteference.png)
+![transformedT](./transformedT.png)
 
 DropdownOption interface 에 사용되는 타입 형태가 실제로 input된 데이터 형태를 기반으로 `string | undefined`로 inference 된 것을 볼 수 있다.
 
