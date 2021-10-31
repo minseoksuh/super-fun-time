@@ -12,6 +12,7 @@
 - [base64](./web/base64/index.md)
 - [HTTPS를 이해해보자](./web/https/index.md)
 - [encodeURIComponent & UTF-8](./web/encodeURIComponent/index.md)
+- [svg path 이해하기](./web/svg-path/index.md)
 
 ## HTTP
 
@@ -73,6 +74,19 @@
 - [옵저버 패턴과 리액트](./pattern/observer/index.md)
 
 <!-- ## Links
+
+https://blog.mathpresso.com/react-deep-dive-react-event-system-1-759523d90341
+
+- Proxy, Mobx, ChannelDropdown
+https://mobx.js.org/configuration.html
+https://mobx.js.org/observable-state.html
+
+https://evan-moon.github.io/2020/05/21/about-cors/
+
+https://stackoverflow.com/questions/49464634/difference-between-object-and-object-in-typescript
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started
+https://developer.mozilla.org/en-US/docs/Web/SVG/Namespaces_Crash_Course
 
 - [https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9](https://gist.github.com/bradtraversy/b28a0a361880141af928ada800a671d9)
 - [https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version](https://stackoverflow.com/questions/59289801/what-is-the-difference-between-parser-options-and-environment-javascript-version) -->
